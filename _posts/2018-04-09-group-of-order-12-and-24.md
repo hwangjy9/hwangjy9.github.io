@@ -16,15 +16,21 @@ tags:
 > Prove that every group of order 24 has a normal subgroup of order 4 or 8.
 
 **Proof.** Let $G$ be a group of order 24. Since $|G|=24=2^3\cdot 3$, Sylow 2-subgroups of $G$ have order $2^3$. Let $n_2$ be the number of Sylow 2-subgroups, then $n_2=1$ or $n_2=3$. If $n_2=1$, then the Sylow 2-subgroup is normal, so $G$ has a normal subgroup of order 8. Now suppose $n_2=3$, and let $H$ and $K$ be distinct Sylow 2-subgroups. Let $N=N_G(H\cap K)$ be the normalizer of $H\cap K$. Then
+
 $$
 |H\cap K|=\frac{|H||K|}{|HK|}\ge \frac{|H||K|}{|G|}=\frac{8\cdot 8}{24}>2.
 $$
+
 Since $H\cap K$ is a subgroup of $H$, $|H\cap K|$ is a divisor of $|H|=8$. Thus $|H\cap K|=4$. Since
+
 $$
 [H:H\cap K]=[K:H\cap K]=2,
 $$
+
 $H\cap K$ is normal in both $H$ and $K$, so $H,K\subset N$ and so $HK\subset N$. Since $N$ is a subgroup of $G$, $|N|\mid 24$. Also,
+
 $$
 |HK|=\frac{|H||K|}{|H\cap K|}=\frac{8\cdot 8}{4}=16\le |N|.
 $$
+
 Thus $|N|$ must be 24 and $N=G$. Therefore, $H\cap K$ is normal in $G$, and $G$ has a normal subgroup of order 4.
