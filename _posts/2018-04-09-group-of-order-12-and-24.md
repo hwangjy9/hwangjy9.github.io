@@ -23,16 +23,16 @@ $$
 |H\cap K|=\frac{|H||K|}{|HK|}\ge \frac{|H||K|}{|G|}=\frac{8\cdot 8}{24}>2.
 $$
 
-Since $H\cap K$ is a subgroup of $H$, $|H\cap K|$ is a divisor of $|H|=8$. Thus $|H\cap K|=4$. Since
+Since $H\cap K$ is a subgroup of $H$, the order of $H\cap K$ is a divisor of 8. Thus $H\cap K$ has order 4. Since
 
 $$
 [H:H\cap K]=[K:H\cap K]=2,
 $$
 
-$H\cap K$ is normal in both $H$ and $K$, so $H,K\subset N$ and so $HK\subset N$. Since $N$ is a subgroup of $G$, $|N|\mid 24$. Also,
+$H\cap K$ is normal in both $H$ and $K$, so $H,K\subset N$ and so $HK\subset N$. Since $N$ is a subgroup of $G$, the order of $N$ divides 24. Also,
 
 $$
 |HK|=\frac{|H||K|}{|H\cap K|}=\frac{8\cdot 8}{4}=16\le |N|.
 $$
 
-Thus $|N|$ must be 24 and so $N=G$. Therefore, $H\cap K$ is normal in $G$, and $G$ has a normal subgroup of order 4.
+Thus the order of $N$ must be 24 and so $N=G$. Therefore, $H\cap K$ is normal in $G$, and $G$ has a normal subgroup of order 4.
