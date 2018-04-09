@@ -1,16 +1,18 @@
 ---
 layout: post
 title: 위수 12인 군과 위수 24인 군의 정규부분군
-description: 위수 12인 군과 위수 24인 군은 단순군(simple group)이 아님을 알 수 있습니다.
+description:
 categories:
  - Group theory
 tags:
 ---
 
+위수 12인 군과 위수 24인 군은 단순군(simple group)이 아님을 알 수 있습니다.
+
 ## 문제 1
 > Prove that every group of order 12 has a normal subgroup of order 3 or 4.
 
-**Proof.** Let $G$ be a group of order 12. Since $|G|=12=2^2\cdot 3$, Sylow 2-subgroups of $G$ have order $2^2$, and Sylow 3-subgroups of $G$ have order 3. Let $n_2, n_3$ be the number of Sylow $n_2, n_3$-subgroups of $G$. By the Sylow theorem, there are integers $k_2,k_3\ge 0$ such that $n_2=2k_2+1\mid 3$ and $n_3=3k_3+1\mid 4$. Thus $n_2=1\text{ or }3$ and $n_3=1\text{ or }4$. If $n_3=1$, then the Sylow 3-subgroup is normal, so $G$ has a normal subgroup of order 3. Now suppose that $n_3=4$. Sylow 3-subgroups intersect trivially, so $G$ has at least 8 elements of order 3 and at most 3 elements that are not of order 3. Thus there is at most one Sylow 2-subgroups of $G$. Thus $G$ has a normal subgroup of order 4.
+**Proof.** Let $G$ be a group of order 12. Since $|G| = 12 = 2^2\cdot 3$, Sylow 2-subgroups of $G$ have order $2^2$, and Sylow 3-subgroups of $G$ have order 3. Let $n_2, n_3$ be the number of Sylow $n_2, n_3$-subgroups of $G$. By the Sylow theorem, there are integers $k_2,k_3\ge 0$ such that $n_2=2k_2+1\mid 3$ and $n_3=3k_3+1\mid 4$. Thus $n_2=1\text{ or }3$ and $n_3=1\text{ or }4$. If $n_3=1$, then the Sylow 3-subgroup is normal, so $G$ has a normal subgroup of order 3. Now suppose that $n_3=4$. Sylow 3-subgroups intersect trivially, so $G$ has at least 8 elements of order 3 and at most 3 elements that are not of order 3. Thus there is at most one Sylow 2-subgroups of $G$. Thus $G$ has a normal subgroup of order 4.
 
 ## 문제 2
 > Prove that every group of order 24 has a normal subgroup of order 4 or 8.

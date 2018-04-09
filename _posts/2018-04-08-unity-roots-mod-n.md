@@ -1,11 +1,13 @@
 ---
 layout: post
 title: 합동식 $x^n \equiv 1\pmod p$의 해의 개수
-description: 합동식 $x^n\equiv 1\pmod p$의 해의 개수를 구하고 연관된 임용고시 문제를 풀어보았습니다.
+description:
 categories:
  - Number theory
 tags:
 ---
+
+합동식 $x^n\equiv 1\pmod p$의 해의 개수를 구하고 연관된 임용고시 문제를 풀어보았습니다.
 
 ## 명제
 
