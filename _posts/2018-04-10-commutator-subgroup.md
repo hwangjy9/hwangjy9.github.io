@@ -29,4 +29,5 @@ G/N\text{ is abelian}&\Longleftrightarrow (aN)(bN)=(bN)(aN)\text{ for all }a,b\i
 &\Longleftrightarrow G' \subset N
 \end{align}$$
 
+## 각주
 [^1]: Thomas W. Judson, Robert A. Beezer. (2016). [Abstract Algebra: Theory and Applications](http://abstract.pugetsound.edu/), p. 124.
