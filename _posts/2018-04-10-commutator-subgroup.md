@@ -10,7 +10,9 @@ tags:
 교환자부분군(commutator subgroup)에 대한 문제 하나를 풀어보았습니다.
 ## 문제
 > Let $G$ be a group and let $G'=\langle aba^{-1}b^{-1}\rangle$; that is, $G'$ is the subgroup of all finite products of elements in $G$ of the form $aba^{-1}b^{-1}$. The subgroup $G'$ is called the ==**commutator subgroup**== of $G$.[^1]
+> 
 > (a) Show that $G'$ is a normal subgroup of $G$.
+>
 > (b) Let $N$ be a normal subgroup of $G$. Prove that $G/N$ is abelian if and only if $N$ contains the commutator subgroup of $G$.
 
 ## 풀이
