@@ -5,6 +5,7 @@ description:
 categories:
  - Group theory
 tags:
+ - finite group
 ---
 
 위수 12인 군과 위수 24인 군은 단순군(simple group)이 아님을 알 수 있습니다.

@@ -5,6 +5,7 @@ description:
 categories:
  - Group theory
 tags:
+ - commutator subgroup
 ---
 
 교환자부분군(commutator subgroup)에 대한 문제 하나를 풀어보았습니다.
