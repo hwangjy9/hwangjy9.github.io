@@ -6,7 +6,7 @@
 # Site
 title: Newbie's Note
 subtitle:
-description: One of the unimportant math blogs.
+description: One of the unimportant math blogs. Favicon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from www.flaticon.com
 author: Newbie
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -75,7 +75,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/notepad.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
